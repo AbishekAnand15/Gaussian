@@ -18,6 +18,7 @@ To write a program to find the solution of a matrix using Gaussian Elimination.
 
 '''
 Program to solve a matrix using Gaussian elimination with partial pivoting.
+```python
 Developed by: Abishek Xavier A
 RegisterNumber: 22008833
 '''
@@ -53,7 +54,7 @@ for i in range(n-2, -1, -1):
     
 for i in range(n):
     print('X%d = %0.2f' %(i, x[i]), end = ' ')
-
+```
 ## Output:
 ![output](gaussian_eli_output.png)
 ## Result:
